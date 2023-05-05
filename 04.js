@@ -14,6 +14,13 @@ function numeroSimetrico(num) {
 
   // Tu código:
 
+  var numSimetricoo = num.toString().split("").reverse().join("");
+
+  if(numSimetricoo == num){
+    return true
+  };
+
+  return false;
 }
 
 // No modifiques nada debajo de esta linea //
